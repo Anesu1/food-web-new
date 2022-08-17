@@ -5443,10 +5443,11 @@
 																		z-index:5;
 																		transform:translate(-50%,-50%);
 																		font-size:25px;
-
+																		color:#ffffff !important;
 																	}
 																	@media(min-width:992px){
 																		.banner-h1{
+																			color:#ffffff !important;
 	font-size:50px;
 }			
 																	}
@@ -5601,7 +5602,21 @@
 						</div>
 					</div>
 				</section>
-				<section
+				<style>
+					@media (max-width: 767px){
+						.elementor .elementor-hidden-mobile {
+							display:block;
+						}
+						.banner-h1{
+							font-size: x-large !important;
+							width: 80% !important;
+
+							color:#ffffff !important;
+						}
+					}
+
+				</style>
+				<!-- <section
 					class="has_eae_slider elementor-section elementor-top-section elementor-element elementor-element-480a810 elementor-section-full_width elementor-hidden-desktop elementor-hidden-tablet elementor-section-height-default elementor-section-height-default"
 					data-particle_enable="false" data-particle-mobile-disabled="false" data-id="480a810"
 					data-element_type="section">
@@ -5709,8 +5724,8 @@
 							</div>
 						</div>
 					</div>
-				</section>
-				<section
+				</section> -->
+				<!-- <section
 					class="has_eae_slider elementor-section elementor-top-section elementor-element elementor-element-28d5598 elementor-hidden-mobile elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default"
 					data-particle_enable="false" data-particle-mobile-disabled="false" data-id="28d5598"
 					data-element_type="section">
@@ -5882,9 +5897,9 @@
 							</div>
 						</div>
 					</div>
-			</div>
-			</section>
-			<section
+			
+			</section> -->
+			<!-- <section
 				class="has_eae_slider elementor-section elementor-top-section elementor-element elementor-element-4b1198d elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
 				data-particle_enable="false" data-particle-mobile-disabled="false" data-id="4b1198d"
 				data-element_type="section">
@@ -6054,8 +6069,8 @@
 						</div>
 					</div>
 				</div>
-		</div>
-		</section>
+		
+		</section> -->
 		<section
 			class="has_eae_slider elementor-section elementor-top-section elementor-element elementor-element-118d2899 elementor-section-height-min-height elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
 			data-particle_enable="false" data-particle-mobile-disabled="false" data-id="118d2899"
@@ -8391,7 +8406,7 @@
 															</a></li>
 													<li
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6395">
-														<a href="#contact" class="elementor-item">FIND US Us</a>
+														<a href="#contact" class="elementor-item">FIND US</a>
 													</li>
 												</ul>
 											</nav>
